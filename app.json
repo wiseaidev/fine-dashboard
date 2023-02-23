@@ -1,0 +1,42 @@
+{
+  "name": "Fine Dashboard",
+  "description": " A damn fine dashboard powered by Refine, Supabase, Redux RTK and friends.",
+  "keywords": [
+      "dashboard",
+      "refine",
+      "supabase",
+      "rtk",
+      "redux",
+      "redux toolkit"
+  ],
+  "repository": "https://github.com/wiseaidev/fine-dashboard",
+  "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+  ],
+  "env": {
+    "REACT_APP_SUPABASE_URL": {
+      "description": "Your Supabase URL.",
+      "value": "APP_SUPABASE_URL",
+      "required": true
+    },
+    "REACT_APP_SUPABASE_ANON_KEY": {
+      "description": "Your Supabase anon key.",
+      "value": "APP_SUPABASE_ANON_KEY",
+      "required": true
+    },
+    "REACT_APP_GOOGLE_KEY": {
+      "description": "Your Google credentials key.",
+      "value": "APP_GOOGLE_KEY",
+      "required": true
+    }
+  },
+  "formation": {
+      "web": {
+          "quantity": 1,
+          "size": "free"
+    }
+  },
+    "stack": "heroku-22"
+}
