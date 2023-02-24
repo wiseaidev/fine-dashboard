@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Demo on Netlify](https://badgen.net/badge/icon/cloudflare/green?icon=telegram&label=fine-dashboard)](https://fine-dashboard.netlify.app/register)
-[![Demo on Vercel](https://badgen.net/badge/icon/heroku?icon=telegram&label=fine-dashboard)](https://fine-dashboard.vercel.app/)
+[![Demo on Netlify](https://badgen.net/badge/icon/netlify/green?icon=telegram&label=fine-dashboard)](https://fine-dashboard.netlify.app)
+[![Demo on Vercel](https://badgen.net/badge/icon/vercel?icon=telegram&label=fine-dashboard)](https://fine-dashboard.vercel.app)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a303e27c-ddde-4edc-bd1d-a9492a0e900f/deploy-status)](https://app.netlify.com/sites/thriving-gaufre-13a5a8/deploys)
 [![Tag](https://badgen.net/github/tag/wiseaidev/fine-dashboard)](https://github.com/wiseaidev/fine-dashboard/releases/tag/v0.1.0)
 
