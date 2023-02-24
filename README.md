@@ -26,11 +26,33 @@ This [refine](https://github.com/pankod/refine) project was generated with [supe
 ### 👌 Supported Features
 
 - Supabase as a backend.
+- Light and dark modes.
+
+![Light Mode](./assets/light-mode.png)
+
+![Dark Mode](./assets/dark-mode.png)
+
 - A Google Map Widget.
+
+![Google Map Widget](./assets/google-map-widget.png)
+
 - 2 charts built using rechartjs.
+
+![Area Chart](./assets/chart-1.png)
+
+![Bar and Lines chars](./assets/chart-2.png)
+
 - Login and registration using user/password, Google, and Github(Github is working on localhost. Google is not working at the moment).
+
+![Socials login](./assets/socials-login.png)
+
+![Register Page](./assets/register-page.png)
+
 - Data provided by fake data endpoint hosted on refine(https://api.fake-rest.refine.dev).
 - A custom social widget that act as a simple Linkedin clone.
+
+![Socials Widget](./assets/social-widget.png)
+
 - Redux Toolkit's `createAsyncThunk` and `RTKQ`.
 
 ### 📙 Description
@@ -60,6 +82,8 @@ Fine Dashboard is a pretty advanced dashboard equipped with cool analytics and c
 
 - Set the following environment variables to your supabase app URL and ANON KEY:
 
+![Supabase anon key](./assets/supabase-anon-key.png)
+
 ```sh
 REACT_APP_SUPABASE_URL=
 REACT_APP_SUPABASE_ANON_KEY=
@@ -69,9 +93,15 @@ REACT_APP_SUPABASE_ANON_KEY=
 
 - Go to your [Google Cloud console](https://console.cloud.google.com/apis/credentials), then go to `Menu` > `APIs & Services` > `Credentials`.
 
+![Google Cloud Credentials](./assets/google-cloud-credentials.png)
+
 - Click `Create credentials` > `API key`.
 
+![Create credentials](./assets/create-api-key.png)
+
 - Click `Copy` to copy your API key for use in our project.
+
+![Google API Key](./assets/api-key.png)
 
 - Set the following environment variable to your API key:
 
@@ -87,7 +117,11 @@ export REACT_APP_GOOGLE_KEY=
 
 - Click `Copy` to copy your Cliend key and secret for use in our project.
 
+![Cliend Key](./assets/oauth-keys.png)
+
 - Go to your Supabase dashboard an enable Google auth provider.
+
+![Supabase Google provider](./assets/supabase-google.png)
 
 - Paste the recently copied values into their correspondent places.
 
@@ -95,11 +129,17 @@ export REACT_APP_GOOGLE_KEY=
 
 - Go to [your Github developers page](https://github.com/settings/developers), then click `Register a new application`.
 
+![Github developers page](./assets/github-developers-page.png)
+
 - Click `Generate a new client secret`.
 
 - Click `Copy` to copy your Cliend ID and key for use in our project.
 
+![Github keys](./assets/github-keys.png)
+
 - Go to your Supabase dashboard an enable Github auth provider.
+
+![Supabase Github provider](./assets/supabase-github.png)
 
 - Paste the recently generated values into their correspondent places.
 
