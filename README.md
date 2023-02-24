@@ -65,7 +65,11 @@ Fine Dashboard is a pretty advanced dashboard equipped with cool analytics and c
 
 ### 🔥 Preview
 
-- Video.
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=pt-FggejTbg">
+         <img src="https://img.youtube.com/vi/pt-FggejTbg/0.jpg" style="width:100%;">
+      </a>
+</div>
 
 ## 🚧 Set up Project
 
@@ -76,7 +80,7 @@ Fine Dashboard is a pretty advanced dashboard equipped with cool analytics and c
 
 ## 👶 Getting Started
 
-### ⚡️ Confinure New Supabase Account.
+### ⚡️ Configure New Supabase Account.
 
 - [Register a new Supabase Account](https://app.supabase.com/sign-in).
 
