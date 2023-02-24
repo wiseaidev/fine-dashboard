@@ -66,10 +66,10 @@ const Login = () => {
     });
   }
   const [values, setValues] = useState({
-    email: "",
-    password: "",
+    email: "test@test.com",
+    password: "test@test.com",
     showPassword: false,
-    agree: false,
+    agree: true,
   });
 
   const [errorValues, setErrorValues] = useState({
